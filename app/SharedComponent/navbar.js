@@ -29,12 +29,12 @@ const Navbar = () => {
               </a>
             </div> */}
             <div className="hidden md:flex space-x-4">
-              <a
-                href="#"
+              <Link
+                href="/"
                 className="text-gray-300  hover:text-white  py-2 rounded-md text-sm font-medium"
               >
                 Home
-              </a>
+              </Link>
               <div
                 className="relative group"
                 onMouseEnter={openMenu}
