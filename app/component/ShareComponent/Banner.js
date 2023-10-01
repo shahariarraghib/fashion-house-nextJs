@@ -1,8 +1,8 @@
 import React from "react";
-import styles from "../../style/banner.module.css";
+import styles from "../../../style/banner.module.css";
 import Image from "next/image";
 
-import bannerModel from "../../assest/images/bannerModel.png";
+import bannerModel from "../../../assest/images/bannerModel.png";
 const Banner = () => {
   return (
     <div className={`${styles.bannerBackground}  `}>

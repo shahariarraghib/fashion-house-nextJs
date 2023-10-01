@@ -6,10 +6,10 @@ import { AiOutlineShopping } from "react-icons/ai";
 import { IoIosHeartEmpty } from "react-icons/io";
 import { AiOutlineClose } from "react-icons/ai";
 
-import BrandLogo from "../../assest/logo/brandLogo.png";
+import BrandLogo from "../../../assest/logo/brandLogo.png";
 
 // CSS Style Import
-import styles from "../../style/brandNameAndCart.module.css";
+import styles from "../../../style/brandNameAndCart.module.css";
 
 const BrandNameAndCart = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -155,7 +155,18 @@ const BrandNameAndCart = () => {
                   </Link>
                 </div>
               </div>
+
+              <div>
+                <div
+                  className={`${styles.shoppingCartStyle} flex items-center mt-1 px-4 text-gayr-300 py-2 rounded-md text-sm font-medium`}
+                >
+                  <Link href="/dashboard">
+                    <div>Dashboard </div>
+                  </Link>
+                </div>
+              </div>
             </div>
+
             <div className="md:hidden flex items-center">
               <button
                 onClick={toggleDrawer}

@@ -2,9 +2,9 @@
 import React, { useState } from "react";
 import Image from "next/image";
 // CSS Style Import
-import styles from "../../style/searce.module.css";
+import styles from "../../../style/searce.module.css";
 // images import
-import bangladeshFlageImage from "../../assest/images/BangladeshFlag.webp";
+import bangladeshFlageImage from "../../../assest/images/BangladeshFlag.webp";
 
 const SearchBar = () => {
   const [isDrawerOpen, setIsMenuOpen] = useState(false);
